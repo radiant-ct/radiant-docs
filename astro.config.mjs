@@ -4,9 +4,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+
+	site: 'https://radiant-ct.github.io',
+	base: '/radiant-docs/',
+
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Radiant',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
